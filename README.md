@@ -21,3 +21,7 @@ A avaliação de um vinho é tradicionalmente um processo caro, demorado e subje
 * **Visualização:** Matplotlib, Seaborn, Plotly
 * **Processamento de Linguagem Natural (NLP):** NLTK, Regex
 * **Ambiente:** Google Colab / Jupyter Notebook
+
+
+## ESTRUTURA DO PROJETO
+https://github.com/Pos-Tech-13DTA-Grupo14/tech-challenge-fase2
