@@ -1,27 +1,60 @@
-# 📊 Tech Challenge - Fase 2 | Análise qualitativa dos vinhos (Wine Quality Dataset)
+🎯 Sobre o Projeto
+Este projeto tem como objetivo desenvolver uma pipeline completa de Machine Learning para prever a qualidade sensorial de vinhos tintos através de dados físico-químicos.
 
-**Pós-Graduação em Data Analytics - FIAP** **Turma:** 13DTA | **Grupo:** 14
+A avaliação tradicional é um processo oneroso e subjetivo, dependente de especialistas. Transformamos essa "arte" em ciência, utilizando o Wine Quality Dataset para classificar vinhos entre Alta Qualidade (nota ≥ 7) e Baixa/Média Qualidade (nota < 7), auxiliando na tomada de decisão baseada em dados.
 
----
+🚀 Etapas do Projeto
+Seguimos a metodologia exigida para garantir uma análise robusta e reprodutível:
 
-## 🎯 Sobre o Projeto
-Uma jornada de análise de dados e Machine Learning para prever a qualidade sensorial através da química.</br>
-A avaliação de um vinho é tradicionalmente um processo caro, demorado e subjetivo, dependendo do paladar de especialistas treinados, nosso objetivo foi transformar essa arte em ciência, utilizando o Wine Quality Dataset para prever se um vinho tinto é de Alta Qualidade (nota ≥ 7) ou Baixa/Média Qualidade (nota < 7) com base em 11 variáveis físico-químicas.</br>
+Compreensão do Problema: Definição do objetivo, tratamento da variável alvo e binarização.
 
+Análise Exploratória (EDA): Investigação de distribuições, correlações e detecção de outliers.
 
-## 🚀 Objetivos e Trilhas Analíticas
-1. **Entendendo a Base de Dados:** Interpretar o contexto do problema, relacionando com a base disponibilizada.
-2. **Padronização e investigação:** Pré-processamento, padronização dos dados e estudo dos modelos propostos.
-3. **Interpretando os modelos:** Identificar influência na qualidade e comparar os modelos testados.
-4. **Treinando os Modelos:** Treinar os modelos de classificação e melhorar o resultado.
+Pré-processamento: Engenharia de features, padronização (StandardScaler) e tratamento do desbalanceamento de classes (SMOTE).
 
-## 🛠️ Tecnologias Utilizadas
-* **Linguagem:** Python
-* **Manipulação de Dados:** Pandas, NumPy
-* **Visualização:** Matplotlib, Seaborn, Plotly
-* **Processamento de Linguagem Natural (NLP):** NLTK, Regex
-* **Ambiente:** Google Colab / Jupyter Notebook
+Modelagem: Desenvolvimento e ajuste de hiperparâmetros (GridSearchCV) utilizando Random Forest.
 
+Avaliação e Interpretação: Análise de métricas (F1-Score, Matriz de Confusão) e extração da importância das variáveis para o negócio.
 
-## ESTRUTURA DO PROJETO
-https://github.com/Pos-Tech-13DTA-Grupo14/tech-challenge-fase2
+📂 Estrutura do Projeto
+Plaintext
+/
+├── data/
+│   ├── raw/           # Dataset original
+│   └── processed/     # Dados tratados e balanceados (SMOTE)
+├── notebooks/         # Jupyter Notebooks de desenvolvimento
+├── results/           # Gráficos, métricas e modelos salvos (.pkl)
+├── src/               # Scripts auxiliares e código-fonte
+├── requirements.txt   # Dependências do projeto
+└── README.md          # Documentação do projeto
+🛠️ Tecnologias Utilizadas
+Linguagem: Python 3.x
+
+Manipulação de Dados: Pandas, NumPy
+
+Modelagem e ML: Scikit-learn, Imbalanced-learn (SMOTE)
+
+Visualização: Matplotlib, Seaborn
+
+Ambiente: VS Code / Jupyter Notebook / Google Colab
+
+💻 Como executar
+Para configurar o ambiente localmente (recomendado para o desenvolvimento no VS Code):
+
+Clone o repositório:
+
+Bash
+git clone https://github.com/Pos-Tech-13DTA-Grupo14/tech-challenge-fase2
+Crie e ative um ambiente virtual:
+
+Bash
+python -m venv venv
+source venv/bin/activate  # No Windows: venv\Scripts\activate
+Instale as dependências:
+
+Bash
+pip install -r requirements.txt
+👥 Equipe
+Grupo 14: Lucas Nunes Melaré Coelho, Gabriel, Sara, André e Raul.
+
+Este projeto faz parte da grade curricular da pós-graduação em Data Analytics - FIAP (Fase 2).
