@@ -1,3 +1,7 @@
+🍷 Tech Challenge - Fase 2 | Análise de Qualidade de Vinhos
+Pós-Graduação em Data Analytics - FIAP
+Turma: 13DTA | Grupo: 14
+
 🎯 Sobre o Projeto
 Este projeto tem como objetivo desenvolver uma pipeline completa de Machine Learning para prever a qualidade sensorial de vinhos tintos através de dados físico-químicos.
 
