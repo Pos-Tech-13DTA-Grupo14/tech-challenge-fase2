@@ -1,1 +1,12 @@
+Requirements - Bibliotecas utilizadas no desenvolvimento do desafio
+
+- pandas: utilizada para manipulação e análise de dados estruturados, permitindo leitura, limpeza, transformação e organização de dados em data frames
+- numpy: voltada para computação numérica, oferecendo suporte a arrays multidimensionais e operações matemáticas de alto desempenho
+- matplotlib: utilizada para criação de gráficos e visualizações de dados, amplamente utilizada para gerar gráficos estatísticos e personalizáveis
+- seaborn: biblioteca de visualização de dados baseada no matplotlib, que facilita a criação de gráficos estatísticos com aparência mais elaborada e intuitiva
+- sklearn: biblioteca de aprendizado de máquina utilizada para pré-processamento de dados, treinamento, validação e avaliação de modelos de classificação e regressão
+- imblearn: complementar ao sklearn, utilizada para tratar conjuntos de dados desbalanceados por meio de técnicas de reamostragem, como o SMOTE
+- joblib: utilizada para serialização (salvamento e carregamento) de modelos e objetos python, além de oferecer suporte à execução paralela de tarefas
+- os: módulo padrão do python utilizado para interação com o sistema operacional, permitindo manipular diretórios, arquivos e caminhos de forma independente da plataforma
+- xgboost: biblioteca de aprendizado de máquina que implementa o algoritmo Extreme Gradiente Boosting, conhecida pelo alto desempenho e eficiência em problemas de classificação e regressão 
 
